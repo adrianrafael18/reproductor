@@ -15,7 +15,7 @@ html, body {
 
 body {
     font-family: sans-serif;
-    background-color: goldenrod;
+    background-color: orange;
     display: flex: block;
     justify-content:center ;
     align-items:cente ;
@@ -35,7 +35,7 @@ body {
 
 /* Title */
 .title {
-    color: blue;
+    color: goldenrod;
     font-size: 2em;
     margin-top:0%;
     text-align: center;
