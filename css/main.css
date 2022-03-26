@@ -68,7 +68,7 @@ body {
 }
 
 .controls button {
-    background-color: orange;
+    background-color: grey;
     font-size: 1.5em ;
     border:none;
 }
@@ -97,5 +97,6 @@ body {
 }
 
 .songs a.active {
-    margin: 0 auto 0 auto;
+   color: wheat;
+   font-weight: bold;
 }
