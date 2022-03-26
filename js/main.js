@@ -7,22 +7,94 @@
     1:git remote rm origin
  */
 // Song data
+    
 const songList = [
     {
-        title: "Acoustic Breeze",
-        file: "acousticbreeze.mp3",
-        cover: "1.jpeg"
+        title: "01-THE OTHER SIDE - The Greatest Showman",
+        file: "01-THE OTHER SIDE - The Greatest Showman (Cover Español)  David Delgado.mp3",
+        cover: "01-The-Greatest-Showman-4-e1515845136461 (1).jpg"
 
     },
     {
-        title: "A New Beginning",
-        file: "anewbeginning.mp3",
-        cover: "2.jpeg"
+        title: "02-AKEBOSHI - Demon Slayer Kimetsu no Yaiba Season 2 OP Full",
+        file: "02-AKEBOSHI - Demon Slayer Kimetsu no Yaiba Season 2 OP Full (Cover Español)  David Delgado.mp3",
+        cover: "02-maxresdefault.jpg"
     },
     {
-        title: "Creative Minds",
-        file: "creativeminds.mp3",
-        cover: "3.jpeg"
+        title: "03-Its not like I like You - Jibaku Shonen Hanako Kun ANIMATIC",
+        file: "03-Its not like I like You - Jibaku Shonen Hanako Kun ANIMATIC  Cover Español  ft. Miree.mp3",
+        cover: "03-It's not like I like You!! - Jibaku Shonen Hanako Kun ANIMATIC.jpg"
+        
+    },
+    {
+        title: "04-MYSTERY SKULLS GHOST en ESPANOL Mystery Skulls Animated",
+        file: "04-MYSTERY_SKULLS_-_GHOST_en_ESPANOL__Mystery_Skulls_Animated_Cover_en_Espanol__David_Delgado.mp3",
+        cover: "04-mystery_skulls_animated_ghost___thank_you_by_phychoticsilence_d897lrj-pre.jpg"
+    },
+    {
+        title: "05-Kekkai Sensen ED Full - Sugar Song to Bitter Step",
+        file: "05-Kekkai Sensen ED Full - Sugar Song to Bitter Step (Cover Español Latino)  David Delgado.mp3",
+        cover: "05-8c9.jpg"
+    },
+    {
+        title: "06LIKE FLAMES - That Time I Got Reincarnated as a Slime Opening Full",
+        file: "06LIKE FLAMES - That Time I Got Reincarnated as a Slime Opening Full (Cover Español)  David Delgado.mp3",
+        cover: "06-The-Slime-Diaries-That-Time-I-Got-Reincarnated-as-a-Slime.jpg"
+    },
+    {
+        title: "07-Long Hope PhiliaBoku no Hero Academia The Movie Futari no Hero",
+        file: "07-Long Hope PhiliaBoku no Hero Academia The Movie Futari no Hero - Cover Español.mp3",
+        cover: "07-boku-no-hero-academia-the-movie-1-futari-no-hero.jpg"
+    },
+    {
+        title: "08-CINDERELLA - Komi Cant Communicate OP Full",
+        file: "08-CINDERELLA - Komi Cant Communicate OP Full (Cover Español)  David Delgado.mp3",
+        cover: "08-komi-san-new-poster.jpg"
+    },
+    {
+        title: "09-RISEThe Rising of the Shield Hero OP FULL",
+        file: "09-RISEThe Rising of the Shield Hero OP FULL - Cover Español.mp3",
+        cover: "09-c000d4c9424936cb5e0551de106bd648.jpg"
+    },
+    {
+        title: "10-Miraculous Ladybug - SABRINA Yo quiero ser tu esclava (I wanna be your SlaveMåneskin) Hitomi Flor",
+        file: "10-Miraculous Ladybug - SABRINA Yo quiero ser tu esclava (I wanna be your SlaveMåneskin) Hitomi Flor.mp3",
+        cover: "10-Angie_Nasca_Designs.jpg"
+    },
+    {
+        title: "11-Fire Force Opening FULL Inferno",
+        file: "11-Fire Force Opening FULL Inferno - Cover Español Latino.mp3",
+        cover: "11-Mrs. Green Apple - Inferno.jpg"
+    },
+    {
+        title: "12-SPIDER-MAN - Duende Verde CANCIÓN ORIGINAL  David Delgado",
+        file: "12-SPIDER-MAN - Duende Verde CANCIÓN ORIGINAL  David Delgado.mp3",
+        cover: "12-duende-verde-willem-dafoe.jpg"
+    },
+    {
+        title: "ENCANTO - En lo Profundo",
+        file: "13-ENCANTO - En lo Profundo (Cover Español Latino) Luisa Madrigal  David Delgado.mp3",
+        cover: "13-ZJKIWPCU7JAO7PWEIRRPWXG5QI.jpg"
+    },
+    {
+        title: "14-Black Catcher - Black Clover Opening 10  Cover Español Latino",
+        file: "14-Black Catcher - Black Clover Opening 10  Cover Español Latino.mp3",
+        cover: "14-Black_Catcher.jpg"
+    },
+    {
+        title: "15-Dr. STONE Opening 3 FULL",
+        file: "15-Dr. STONE Opening 3 FULL Español Latino  Rakuen.mp3",
+        cover: "15-dr_stone-907035932-large.jpg"
+    },
+    {
+        title: "16-SING ",
+        file: "16-SING - Im Still Standing (Cover Español Latino)  David Delgado.mp3",
+        cover: "16-Sing-2-cover-1024x576.jpg"
+    },
+    {
+        title: "17-MERRY GO ROUND - Boku no Hero Academia",
+        file: "17-MERRY GO ROUND - Boku no Hero Academia OP 9 Full (Cover Español)  David Delgado.mp3",
+        cover: "17-Boku no Hero Academia.jpg"
     },
 ]
 
@@ -75,7 +147,7 @@ function loadSongs() {
     })
 }
 
-// Cargar canción seleccionada
+// Cargar canción seleccionada aqui ()estoy
 function loadSong(songIndex) {
     if (songIndex !== actualSong) {
         changeActiveClass(actualSong, songIndex)

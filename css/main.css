@@ -1,4 +1,12 @@
 /* Common */
+/* 
+    para crear un repositorio nuevo usa:
+    1:git add .
+    2:git commit -m"ACTUALISASION DEL PROGRAMA 1"
+    3:git push -u origin main
+    encaso que tengas ya creado un repositoe y lo ayas borado usa 
+    1:git remote rm origin
+ */
 * { box-sizing: border-box;}
 
 html, body {
@@ -7,47 +15,51 @@ html, body {
 
 body {
     font-family: sans-serif;
-    background-color: lighgray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: goldenrod;
+    display: flex: block;
+    justify-content:center ;
+    align-items:cente ;
 }
 
 /* Player */
 .player {
-    min-width: 320px;
-    background-image: linear-gradient(black, gray);
-    border-radius: 1rem;
+    max-width: 180px;
+    min-width: 500px;
+    background-image: linear-gradient(black ,white) ;
+    border-radius: 0.5rem;
     padding: 2rem;
     color: white;
-    box-shadow: 2px 2px 3px black;
+    box-shadow: 3px 3px 3px skyblue;
+    margin:  auto  auto;
 }
 
 /* Title */
 .title {
-    margin-top: 0;
+    color: blue;
+    font-size: 2em;
+    margin-top:0%;
     text-align: center;
+    margin: 0 auto 0 auto;
 }
 
 /* Cover */
 .cover {
-    width: 128px;
+    width: 120px;
     height: auto;
-    border-radius: .3rem;
+    border-radius: 1rem;
     display: block;
-    margin: 0 auto 1rem auto;
+    margin: 0 auto 0 auto;
 }
 
 /* Progress */
 .progress-container {
-    height: .6rem;
-    background-color: lightgray;
-    margin-bottom: 1rem;
+    height: 0.6rem;
+    background-color: aqua;
+    
 }
-
 .progress {
-    background-color: goldenrod;
-    width: 0;
+    background-color: red;
+    width: 40%;
     height: 100%;
 }
 
@@ -55,36 +67,43 @@ body {
 .controls {
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 1rem;
 }
 
 .controls button {
-    background-color: transparent;
-    border: none;
+    
+    background-color: orange;
+    font-size: 1.5em ;
+    border:none;
 }
 
 .controls i {
-    font-size: 1.7rem;
-    color: white;
+    
+    font-size: 2.7rem;
+    color:cornflowerblue;
 }
-
 /* Songs */
 .songs {
+    font-size: 1.0rem;
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
 .songs li {
-    margin-bottom: 1rem;
+    
+    font-size: 1em;
+    margin: 1rem;
 }
 
 .songs a {
-    color: lightgray;
+    color: black;
     text-decoration: none;
+    font-size: 1.5em;
+    
 }
 
 .songs a.active {
-    color: white;
-    font-weight: bold;
+    font-size: 1.5rem;
+   color: chartreuse;
+   font-weight: bold;
 }
