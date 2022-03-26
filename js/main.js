@@ -26,4 +26,13 @@ const songList = [
         cover: "3.jpeg"
     },
 ]
-/**/
+/*capturar elemontos de dom para trbajar con .js*/
+const songs = document.getElementById("songs")
+
+/* carga y listado de cansiones */
+function loadSongs(){
+songList.forEach(songs)
+/*goo */
+loadSongs(){
+
+}
